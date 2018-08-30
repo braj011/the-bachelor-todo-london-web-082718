@@ -96,6 +96,6 @@ def get_average_age_for_season(data, season)
      end
    end 
     num_of_cont = data[season].length 
-    binding.pry
+    
     average_age = (ages_added/num_of_cont).round
 end 
