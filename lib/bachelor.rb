@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
     if season_info == season
     all_contestant_info.each do |contestant|
       if contestant["status"] == "Winner"
-
+          p constant
       end
     end 
   end 
